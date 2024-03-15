@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="870.0" prefWidth="1239.0" styleClass="anchor-pane-with-background" stylesheets="@../styles/Login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.LoginFormController">
+   <children>
+      <AnchorPane layoutX="179.0" layoutY="334.0" prefHeight="411.0" prefWidth="348.0" styleClass="anchor-pane-with-background2" stylesheets="@../styles/Login.css">
+         <children>
+            <Label layoutX="143.0" layoutY="216.0" prefHeight="46.0" prefWidth="119.0" text="User">
+               <font>
+                  <Font name="DejaVu Sans Mono Bold" size="33.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnUserLogin" buttonType="RAISED" layoutX="74.0" layoutY="299.0" onAction="#btnUserLoginOnAction" prefHeight="62.0" prefWidth="198.0" styleClass="button-color" stylesheets="@../styles/Login.css" text="Login" textFill="#b95656">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="158.0" fitWidth="165.0" layoutX="91.0" layoutY="58.0">
+               <image>
+                  <Image url="@../images/newimage1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="719.0" layoutY="333.0" prefHeight="411.0" prefWidth="348.0" styleClass="anchor-pane-with-background2" stylesheets="@../styles/Login.css">
+         <children>
+            <Label layoutX="115.0" layoutY="217.0" prefHeight="46.0" prefWidth="119.0" text="Admin">
+               <font>
+                  <Font name="DejaVu Sans Mono Bold" size="33.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnAdminLogin" buttonType="RAISED" layoutX="74.0" layoutY="299.0" onAction="#btnAdminLoginOnAction" prefHeight="62.0" prefWidth="198.0" styleClass="button-color" stylesheets="@../styles/Login.css" text="Login" textFill="#b95656">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="75.0" layoutY="28.0">
+               <image>
+                  <Image url="@../images/newimage2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="170.0" layoutY="50.0" prefHeight="149.0" prefWidth="988.0" text="Welcome to BookWorm" textFill="WHITE">
+         <font>
+            <Font name="Dyuthi Regular" size="89.0" />
+         </font>
+      </Label>
+      <Label layoutX="462.0" layoutY="227.0" prefHeight="47.0" prefWidth="405.0" text="Login me as..." textFill="#ebd1d1">
+         <font>
+            <Font name="FreeMono Bold" size="46.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
