@@ -88,7 +88,7 @@ public class UserLoginFormController {
 
     }
 
-/*    void login(){
+    void login(){
         String username = txtUserName.getText();
         String pw = hiddenTxtPassword.getText();
         String pw1 = showTextPw.getText();
@@ -126,9 +126,9 @@ public class UserLoginFormController {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-    }*/
+    }
 
-    void login() {
+   /* void login() {
         try {
             // Load the next page directly
             AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/view/User_view/User_dashboard_form.fxml"));
@@ -140,7 +140,7 @@ public class UserLoginFormController {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-    }
+    }*/
 
 
     public void btnBackOnAction(ActionEvent actionEvent) {
